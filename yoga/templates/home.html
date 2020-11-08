@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yoga-Pose-Corrector</title>
+    <link rel="shortcut icon" type="image/png" href="./../static/images/favicon.jpg">
+    <!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="container container-1">
+        <h1 class="text-center">WELCOME TO THE APP</h1>
+        <h2 class="text-center pt-3 pb-3">CHOOSE ONE TO PROCEED</h2>
+        <form method="POST" action="">
+            {{form.hidden_tag()}}
+            <div class="row">
+                {{form.dfdp(class ="col-sm btn btn-success btn-lg py-5 my-2 mx-1")}}
+                {{form.mount_p(class ="col-sm btn btn-success btn-lg py-5 my-2 mx-1")}}
+                {{form.tree_p(class ="col-sm btn btn-success btn-lg py-5 my-2 mx-1")}}
+            </div>
+
+            <div class="row">
+                {{form.plank(class ="col-sm btn btn-success btn-lg py-5 my-2 mx-1")}}
+                {{form.bridge_p(class ="col-sm btn btn-success btn-lg py-5 my-2 mx-1")}}
+                {{form.triangle_p(class ="col-sm btn btn-success btn-lg py-5 my-2 mx-1")}}
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/9e534c812c.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
