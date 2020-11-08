@@ -2,8 +2,10 @@
 
 ## To run the file on your system
 
-git clone git@github.com:pk0205/yoga-pose.git
-cd yoga-pose
-pip install requiremen.txt
+download and extract the zip file
+
+go to file
+
+pip install requirement.txt
 
 python run app.py
