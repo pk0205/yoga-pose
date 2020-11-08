@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    min-height:100%;
+    background:url(../images/bg.jpg);
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    /* border:1px solid black; */
+    
+    color:white;
+}
+
+.container-1{
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.container-2{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.btn-center{
+    margin-left: 450px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.canvas{
+    z-index: 10000;
+    /* position:relative; */
+    /* height:95vh; */
+    /* margin-top:auto; */
+    background-color:rgb(219, 201, 201);
+}
