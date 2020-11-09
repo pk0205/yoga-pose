@@ -10,7 +10,7 @@
 > OPTIONAL
 >> (or you can create a new environment)
 
->> For environment on conda
+>> For environment on conda type the following command :-
 
 >> conda create -n myenv python=3.7
 ### --------------------------------------------------------
