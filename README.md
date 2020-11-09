@@ -2,9 +2,9 @@
 
 ## To run the file on your system
 
-## download and extract the zip file
+### download and extract the zip file
 
-## install python and pip 
+### install python and pip 
 
 ### ---------------------------------------------------------
 > OPTIONAL
@@ -15,8 +15,8 @@
 >> conda create -n myenv python=3.7
 ### --------------------------------------------------------
 
-## go to file
+### go to file
 
-## pip install -r requirements.txt
+### pip install -r requirements.txt
 
-## python run app.py
+### python run app.py
