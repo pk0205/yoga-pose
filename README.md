@@ -7,9 +7,11 @@
 ## install python and pip 
 
 ### ---------------------------------------------------------
-> optional
+> OPTIONAL
 >> (or you can create a new environment)
+
 >> For environment on conda
+
 >> conda create -n myenv python=3.7
 ### --------------------------------------------------------
 
